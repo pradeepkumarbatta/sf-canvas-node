@@ -15,7 +15,7 @@ var app = express();
 // make sure to set by:
 //  heroku config:set CANVAS_CONSUMER_SECRET=adsfadsfdsfsdafsdfsdf
 
-var consumerSecret = process.env.CANVAS_CONSUMER_SECRET;
+var consumerSecret = '444EA80829D8DD9C5F3D6F551E2DE4306D25656A7DD9AD0BC41F8E99F5584BE4'; //process.env.CANVAS_CONSUMER_SECRET;
 
 app.use(express.static(path.join(__dirname, "views")));
 app.set("view engine", "ejs");
