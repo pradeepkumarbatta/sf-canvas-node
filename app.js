@@ -11,7 +11,7 @@ var express = require("express"),
   request = require("request"),
   // CryptoJS = require("crypto-js"),
   decode = require("salesforce-signed-request");
-alert('decode:::'+decode);
+console.log('P:::::::::::::');
 var app = express();
 // make sure to set by:
 //  heroku config:set CANVAS_CONSUMER_SECRET=adsfadsfdsfsdafsdfsdf
